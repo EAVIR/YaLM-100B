@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "georgewfraser.vscode-javac"
+        "georgewfraser.vscode-javac",
+        "formulahendry.code-runner"
     ]
 }
