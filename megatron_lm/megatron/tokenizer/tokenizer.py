@@ -263,7 +263,7 @@ class _SpTokenizer(AbstractTokenizer):
         return token_ids
 
     def detokenize(self, token_ids):
-        return self.tokenizer._tokenizer.detokenize(token_ids).replace('[NL]', '\n')
+        return self.tokenizer._tokenizer.detokenize(token_ids)
 
     @property
     def cls(self):
